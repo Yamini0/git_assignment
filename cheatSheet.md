@@ -103,6 +103,11 @@ git merge [source_branch] [target_branch] | Merge a branch into target branch |
 | --- | --- |
 | git tag | List all tags |
 | git tag [tag_name] | Create a tag for current commit | git git tag -d [tag_name] | Delete a tag from local repository |
+| git push origin [tag_name] | To push the specified tag name as a release point |
+| git push --tags | to push all available tags from local repository to remote repository |
+| git tag --d [tag_name] [tag_name] | To delete multiple tags |
+| git push origin -d [tag_name] | to delete a tag from the remote server |
+| git tag [tag_name] [reference_of_commit] | to create a tag for older commit |
 
 
 
